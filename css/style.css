@@ -5,6 +5,7 @@
 html,
 body{
   margin:0;
+
 }
 body{
   background-color:#ffffff;
@@ -25,6 +26,14 @@ body{
 
 }
 
+
+
+.input-label-group{
+  margin-left: 22%;
+  width:100%;
+  justify-content: center;
+  align-content: center;
+}
 
 
 
@@ -97,11 +106,7 @@ input,
   margin-bottom:2%;
 }
 
-.newsletter-title{
-  text-align:left;
-  width:80%;
-  display: inline-block;
-}
+
 
 button{
   background-color: #009966;
@@ -109,6 +114,7 @@ button{
   padding:15px;
   border-radius: 9px;
   border-style:none;
+  margin:auto;
 }
 
 #newsletter_one,
@@ -127,18 +133,18 @@ button{
 
 }
 
+
+
 .container{
-  width:70%;
+  width:50%;
   display: inline-block;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
   margin-top: auto;
+  margin-left: 20%;;
 
 }
 
-.info-container{
-  width:75%;
-  margin-right: 25px;
-}
+
 
 .newsletterinfo{
   display: inline-block;
@@ -155,9 +161,13 @@ button{
 .newsletter{
   text-align: left;
   display: inline-block;
-  width:80%;
+  width:75%;
   font-size: 1.3rem;
 
+}
+.info-container{
+  width:50%;
+  margin:auto;
 }
 
 
@@ -176,8 +186,31 @@ input[type="tel"]:focus,
   display: table;
 }
 @media(min-width:1024px){
+
+.first-form{
+  display: inline-block;
+}
+
 .title{
   padding:1.5%;
+}
+
+.labels{
+  width:9%;
+  display: inline-block;
+  margin: auto;
+}
+input{
+  display:inline-block;
+  width:50%;
+
+
+
+
+}
+
+.state-select{
+  width:40%;
 }
 
 
@@ -218,11 +251,28 @@ width:50%;
   width:90%;
 }
 
+.container{
+  margin:10px 10px 0 10px;
+
+}
+
+.mass-container{
+  margin:auto;
+
+}
+
 footer{
 margin:auto;
 }
 
+#zipcode{
+  display: inline-block;
+  margin:0;
+}
 
+.newsletter{
+  margin-left: auto;
+}
 
 
 }
