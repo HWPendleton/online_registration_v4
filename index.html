@@ -20,17 +20,28 @@
         <main class="main-container">
           <form action="index.html" method="post" class="input-forms">
             <div class="first-form">
+              <div class="input-label-group">
               <label for="name" class="labels">Name:</label>
               <input type="text" name="name" id="name" placeholder="Required">
+            </div>
+            <div class="input-label-group">
               <label for="email" class="labels">Email:</label>
               <input type="email" name="email" id="email" placeholder="Required">
+            </div>
+            <div class="input-label-group">
               <label for="phone-number" class="labels">Phone Number:</label>
               <input type="tel" name="phonenumber" id="phone-number"
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                  </div>
+              <div class="input-label-group">
               <label for="street-address" class="labels">Address:</label>
               <input type="text" name="street-address" id="street-address">
+            </div>
+            <div class="input-label-group">
               <label for="city" class="labels">City:</label>
               <input type="text" name="city" id="city">
+            </div>
+            <div class="input-label-group">
               <label for="state-select" class="labels">State:</label>
               <select class="state-select">
                 <option value="AL">Alabama</option>
@@ -85,9 +96,12 @@
               	<option value="WI">Wisconsin</option>
               	<option value="WY">Wyoming</option>
               </select>
+            </div>
 
-              <label for="zipcode" class="labels">Zip Code:</label>
+            <div class="input-label-group">
+              <label for="zipcode" class="labels zipcode">Zip Code:</label>
               <input type="text" pattern="[0-9]{5}" name="zipcode" id="zipcode">
+            </div>
 
             </div>
 
@@ -97,6 +111,7 @@
         <div class="second-form">
 
           <h2 class="newsletter">Newsletter</h2>
+      <div class="mass-container">
         <div class="container clearfix">
           <label for="newsletter_one" class="newsletterinfo label-other">HTML News</label>
           <input type="checkbox" name="newsletter" id="newsletter_one" class="clearfix">
@@ -110,6 +125,7 @@
           <label for="newsletter_three" class="newsletterinfo label-other">Javascript News</label>
           <input type="checkbox" name="newsletter" id="newsletter_three" class="clearfix">
         </div>
+      </div>
 
         <div class="container info-container clearfix">
           <label for="info" class="label-info">Tells us about yourself</label>
