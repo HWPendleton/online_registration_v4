@@ -23,7 +23,7 @@
 
 
       <main class="main-container">
-        <fieldset>
+      <fieldset>
           <legend class="fill-out">Contact Information</legend>
           <form action="index.html" method="post" class="input-forms">
             <div class="first-form">
@@ -51,7 +51,7 @@
             </div>
             <div class="input-label-group">
               <label for="state-select" class="labels">State:</label>
-              <select id ="state-select"class="state-select">
+              <select id ="state-select" name="stateselect" class="state-select">
                 <option value="AL">Alabama</option>
               	<option value="AK">Alaska</option>
               	<option value="AZ">Arizona</option>
@@ -112,7 +112,7 @@
             </div>
 
             </div>
-          </fieldset>
+
           <hr>
 
 
@@ -120,11 +120,11 @@
 
 
         <div class="second-form">
-          <fieldset>
+
 
           <h2 class="newsletter">Newsletter</h2>
       <div class="mass-container">
-        <legend class="select-letters">Select the newsletters you would like to recieve</legend>
+        <p class="select-letters">Select the newsletters you would like to recieve</p>
         <div class="container clearfix">
           <label for="newsletter_one" class="newsletterinfo label-other">HTML News</label>
           <input type="checkbox" name="newsletter" id="newsletter_one" class="clearfix">
@@ -142,8 +142,8 @@
 
       </div>
 
-      <section>
-          <legend class="">Newsletter format</legend>
+      <div class="more-options">
+          <p class="">Newsletter format</p>
           <div class="options">
             <input type="radio" name="format" id="html-option" class="radio-input">
             <label for="html-option" class="newsletter-format">HTML</label>
@@ -152,7 +152,7 @@
             <input type="radio" name="format" id="second-html-option" class="radio-input">
             <label for="second-html-option" class="newsletter-format">Plain Text</label>
           </div>
-          </section>
+          </div>
 
 
 
@@ -163,17 +163,24 @@
           <label for="info" class="label-info">Tells us about yourself</label>
           <textarea id="info" name="info"  placeholder="Tell us about yourself" class="info-box"></textarea>
         </div>
+      </div>
+    </div>
+  </form>
+
           <button type="reset" name="submitbutton" class="submit-button">Submit</button>
 
-        </div>
-      </fieldset>
-      </form>
 
-    </main>
+      </fieldset>
+
+  </main>
+
+
+
+
+
       <footer class="main-footer">
         <p class="footer-copyright">Copyright The Code Review </p>
       </footer>
 
-
-    </body>
+  </body>
   </html>
