@@ -22,7 +22,7 @@ body{
 }
 
 .main-header{
-  width:100%;
+
 
 }
 
@@ -157,7 +157,10 @@ input,
   margin-bottom:2%;
 }
 
-
+}
+main{
+  width:100%;
+}
 
 button{
   background-color: #009966;
@@ -236,6 +239,10 @@ button{
   font-size: .9rem;
   margin-left: 16%;
 
+}
+.more-options{
+  width:50%;
+  margin-bottom:5%;
 }
 
 input[type="text"]:focus,
@@ -365,14 +372,24 @@ margin:auto;
 }
 
 .newsletter{
-  margin-left: auto;
-
   text-decoration: underline;
 }
 
 .mass-container{
   margin-top:1%;
 
+}
+
+.more-options{
+  margin-left:10%;
+  width:30%;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.mass-conatiner-two{
+  width:80%;
 }
 
 }
