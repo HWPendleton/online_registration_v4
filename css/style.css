@@ -71,7 +71,7 @@ section{
 
 hr {
   width:75%;
-  border-top: small solid #333;
+  border-top:  solid #333;
   padding:1px;
   border-bottom: solid 4px #333;
 
@@ -157,7 +157,7 @@ input,
   margin-bottom:2%;
 }
 
-}
+
 main{
   width:100%;
 }
@@ -172,7 +172,7 @@ button{
   width:50%;
   align-self: center;
   justify-content: center;
-  margin-left: 20%;
+  margin-left: 0%;
 
 }
 
@@ -316,10 +316,10 @@ button{
   flex-grow:1;
   align-content: center;
   justify-content: center;
-  width:50%;
+  width:30%;
   text-align: center;
   display:block;
-  margin-left:25%;
+
 
 }
 
@@ -352,10 +352,7 @@ align-content: center;
   width:90%;
 }
 
-.container{
 
-
-}
 
 .radio-input{
   width:10%;
